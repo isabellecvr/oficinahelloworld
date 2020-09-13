@@ -5,7 +5,7 @@ console.log(input)
 var button = document.querySelector("button")
 console.log(button)
 
-function cliquei(){
-   event.preventDefault()
+function cliquei(ev) {
+    ev.preventDefault();
     titulo.innerText = input.value;
 }
